@@ -1,0 +1,16 @@
+.advantage__offer {
+  @include flex-aline-center;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (max-width: 48em) {
+  .advantage__offer {
+    text-align: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+  }
+}

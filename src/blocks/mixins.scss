@@ -1,0 +1,27 @@
+@mixin font($weight, $size, $height) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+}
+
+@mixin flex-aline-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

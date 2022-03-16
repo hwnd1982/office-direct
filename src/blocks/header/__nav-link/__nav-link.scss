@@ -1,0 +1,8 @@
+.header__nav-link {
+  @include font(500, 1.6rem, 140%);
+  color: #2b3350;
+}
+
+.header__nav-link:not(:last-child) {
+  margin-right: 3.1rem;
+}

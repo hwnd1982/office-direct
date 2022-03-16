@@ -1,0 +1,13 @@
+.header__city-menu {
+  @include font(500, 1.6rem, 140%);
+  width: 8.1rem;
+  background-image: url("../img/header/img/chevron-down.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1.6rem 1.6rem;
+  cursor: pointer;
+}
+
+.header__city-menu::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}

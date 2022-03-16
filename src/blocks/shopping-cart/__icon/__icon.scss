@@ -1,0 +1,12 @@
+.shopping-cart__icon {
+  margin-right: 0.883rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (max-width: 48em) {
+  .shopping-cart__icon {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+}

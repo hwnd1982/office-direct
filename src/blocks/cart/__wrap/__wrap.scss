@@ -1,0 +1,23 @@
+.cart__wrap {
+  width: 28.1rem;
+  @include flex-centered;
+  text-align: center;
+  flex-shrink: 0;
+  flex-direction: column;
+
+  &:hover {
+    margin: -0.08rem -2.45rem -13rem -2.45rem;
+    padding-bottom: 4.7rem;
+    width: 33rem;
+    background: #ffffff;
+    border: 1px solid #f3f4f7;
+    box-sizing: border-box;
+    box-shadow: 0px 2rem 5.2rem -0.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    z-index: 10;
+
+    & .button__cart {
+      display: block;
+    }
+  }
+}

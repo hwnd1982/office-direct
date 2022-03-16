@@ -1,0 +1,14 @@
+.advantage__img {
+  width: 8.8rem;
+  height: 8.8rem;
+  flex-shrink: 0;
+  margin-bottom: 1.8rem;
+}
+
+@media (max-width: 48em) {
+  .advantage__img {
+    width: 9.6rem;
+    height: 9.6rem;
+    margin-bottom: 0;
+  }
+}

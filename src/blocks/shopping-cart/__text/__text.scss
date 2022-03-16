@@ -1,0 +1,10 @@
+.shopping-cart__text {
+  @include font(500, 1.6rem, 140%);
+  margin-right: 0.65rem;
+}
+
+@media (max-width: 48em) {
+  .shopping-cart__text {
+    display: none;
+  }
+}

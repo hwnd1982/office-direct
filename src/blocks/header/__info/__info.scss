@@ -1,0 +1,11 @@
+.header__info {
+  @include flex-justify-between;
+  margin-bottom: 1.6rem;
+}
+
+@media (max-width: 48em) {
+  .header__info {
+    flex-grow: 1;
+    margin-bottom: 0;
+  }
+}

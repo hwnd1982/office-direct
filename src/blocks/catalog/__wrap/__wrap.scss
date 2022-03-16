@@ -1,0 +1,5 @@
+.catalog__wrap {
+  @include flex-justify-between;
+  flex-wrap: wrap;
+  align-items: start;
+}

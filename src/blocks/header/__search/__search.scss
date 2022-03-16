@@ -1,0 +1,10 @@
+.header__search {
+  width: 51rem;
+  height: 5.1rem;
+}
+
+@media (max-width: 48em) {
+  .header__search {
+    display: none;
+  }
+}

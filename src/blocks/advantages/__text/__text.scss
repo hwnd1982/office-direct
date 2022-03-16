@@ -1,0 +1,17 @@
+.advantage__text {
+  @include font(300, 2.2rem, 150%);
+  width: 85%;
+  margin-bottom: 1.3rem;
+
+  & strong {
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 48em) {
+  .advantage__text {
+    width: 81%;
+    margin-bottom: 0;
+    font-size: 2.8rem;
+  }
+}
