@@ -1,9 +1,9 @@
-.header-menu__nav-menu {
+.header__nav-menu {
   @include flex-aline-center;
 }
 
 @media (max-width: 48em) {
-  .header-menu__nav-menu {
+  .header__nav-menu {
     display: none;
   }
 }

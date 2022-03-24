@@ -1,0 +1,15 @@
+.questions__content {
+  position: relative;
+  padding: 13.8rem 0 10.4rem;
+
+  &--color {
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 48em) {
+  .questions__content {
+    text-align: center;
+    padding: 13.4rem 0 11.4rem;
+  }
+}

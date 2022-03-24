@@ -1,0 +1,21 @@
+.select__body {
+  position: absolute;
+  display: none;
+  list-style: none;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px rgba(157, 160, 166, 0.15);
+  border-radius: 8px;
+  background-color: rgba($color: #ffffff, $alpha: 0.75);
+  padding: 2rem 0;
+  left: -2rem;
+  top: 0;
+  z-index: -1;
+  white-space: nowrap;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s;
+
+  &--active {
+    display: block;
+  }
+}

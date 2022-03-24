@@ -1,0 +1,27 @@
+.header__button {
+  @include font(500, 1.6rem, 140%);
+  padding: 1.35rem 2.85rem 1.55rem;
+  border-radius: 8px;
+
+  &--color {
+    background-color: #f3f4f7;
+  }
+  &--mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 48em) {
+  .header__button {
+    font-size: 3.2rem;
+    padding: 2.7rem 5.7rem 3.1rem;
+    margin-bottom: 2rem;
+
+    &--desktop {
+      display: none;
+    }
+    &--mobile {
+      display: block;
+    }
+  }
+}

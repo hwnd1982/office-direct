@@ -4,19 +4,24 @@
   text-align: center;
   flex-shrink: 0;
   flex-direction: column;
+}
 
-  &:hover {
-    margin: -0.08rem -2.45rem -13rem -2.45rem;
-    padding-bottom: 4.7rem;
-    width: 33rem;
+@media (min-width: 48em) {
+  .cart__wrap:hover {
+    position: absolute;
+    top: -2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5.9rem 0 4.5rem 0;
+    width: 33.6rem;
     background: #ffffff;
-    border: 1px solid #f3f4f7;
+    border: 0.1rem solid #f3f4f7;
     box-sizing: border-box;
     box-shadow: 0px 2rem 5.2rem -0.8rem rgba(0, 0, 0, 0.15);
     border-radius: 16px;
     z-index: 10;
 
-    & .button__cart {
+    & .cart__button {
       display: block;
     }
   }

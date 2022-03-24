@@ -1,0 +1,10 @@
+.header__phone-wrap {
+  @include flex-aline-center;
+  margin-left: -1.5rem;
+}
+
+@media (max-width: 48em) {
+  .header-phone {
+    display: none;
+  }
+}

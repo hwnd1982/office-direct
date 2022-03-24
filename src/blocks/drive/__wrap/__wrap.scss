@@ -1,0 +1,10 @@
+.drive__wrap {
+  position: relative;
+  padding: 3.5rem 0 10.8rem;
+}
+
+@media (max-width: 48em) {
+  .drive__wrap {
+    padding: 5rem 0 10.8rem;
+  }
+}

@@ -1,0 +1,14 @@
+.questions__img {
+  position: absolute;
+  min-width: 53.635rem;
+  max-width: 72rem;
+  top: -21rem;
+  right: -10.6rem;
+  z-index: -1;
+}
+
+@media (max-width: 48em) {
+  .questions__img {
+    display: none;
+  }
+}

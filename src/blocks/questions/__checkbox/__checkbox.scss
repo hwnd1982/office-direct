@@ -1,0 +1,49 @@
+.questions__checkbox {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  margin: 0.5rem;
+  margin-right: 2.3rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #576077;
+    border: 0.1rem solid #6f7487;
+    border-radius: 0.5rem;
+  }
+
+  &:checked::after {
+    background-color: #0074d4;
+    background-image: url("../img/questions/img/checked.svg");
+    background-repeat: no-repeat;
+    background-position: 55% 55%;
+    background-size: 1.2rem 1.2rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .questions__checkbox {
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    margin-right: 2.8rem;
+    margin-left: 1.5rem;
+
+    &::after {
+      width: 3.8rem;
+      height: 3.8rem;
+      border: 0.2rem solid #6f7487;
+      border-radius: 1rem;
+    }
+
+    &:checked::after {
+      background-size: 2.4rem 2.4rem;
+    }
+  }
+}

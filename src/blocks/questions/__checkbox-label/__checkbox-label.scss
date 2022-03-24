@@ -1,0 +1,11 @@
+.questions__checkbox-label {
+  @include font(300, 1.8rem, 120%);
+  color: #576077;
+}
+
+@media (max-width: 48em) {
+  .questions__checkbox-label {
+    @include font(300, 2.4rem, 91.52%);
+    text-align: left;
+  }
+}

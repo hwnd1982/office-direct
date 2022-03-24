@@ -1,0 +1,22 @@
+.questions__background {
+  position: absolute;
+  left: 50%;
+  width: 100vw;
+  height: 70rem;
+  background-image: url(../img/questions/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -13rem;
+  transform: translateX(-50%);
+  opacity: 0.05;
+  z-index: -1;
+}
+
+@media (max-width: 48em) {
+  .questions__background {
+    height: 100%;
+    background-size: 150.6rem 313.6rem;
+    background-position-x: 16%;
+    background-position-y: 14%;
+  }
+}

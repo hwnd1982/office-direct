@@ -1,0 +1,32 @@
+.map__element {
+  width: 100%;
+  height: 70.3rem;
+}
+
+.map__balloon {
+  @include font(600, 1.4rem, 235%);
+}
+
+.ymaps-2-1-79-copyrights-pane {
+  display: none;
+}
+
+.ymaps-2-1-79-balloon,
+.ymaps-2-1-79-balloon__layout {
+  border-radius: 1.5rem;
+  padding: 0 2rem;
+}
+
+// .ymaps-2-1-79-ground-pane {
+//   filter: grayscale(1);
+// }
+
+@media (max-width: 48em) {
+  .map__element {
+    height: 58.8rem;
+  }
+
+  .map__balloon {
+    font-size: 3.2rem;
+  }
+}

@@ -1,0 +1,11 @@
+.header__item {
+  @include font(500, 3.2rem, 140%);
+
+  & a {
+    color: $color-text-black;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 3.6rem;
+  }
+}

@@ -1,0 +1,14 @@
+.catalog__button {
+  @include font(600, 1.8rem, 130%);
+
+  &--color {
+    color: #191e32;
+    background: transparent;
+  }
+}
+
+@media (max-width: 48em) {
+  .catalog__button {
+    font-size: 3.2rem;
+  }
+}

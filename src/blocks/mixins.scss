@@ -25,3 +25,10 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+@mixin nline-overflow($n) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $n;
+  -webkit-box-orient: vertical;
+}

@@ -1,11 +1,12 @@
 .advantage__wrap {
-  @include flex-justify-between;
+  display: flex;
   padding-top: 9.8rem;
-  padding-bottom: 9.2rem;
+  padding-bottom: 9.6rem;
 }
 
 @media (max-width: 48em) {
   .advantage__wrap {
     flex-direction: column;
+    padding-bottom: 8.2rem;
   }
 }

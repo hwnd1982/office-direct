@@ -1,3 +1,16 @@
 .catalog__title {
   padding-bottom: 3.5rem;
+  @include font(900, 4.4rem, 120%);
+  text-align: center;
+
+  &--color {
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 48em) {
+  .catalog__title {
+    font-size: 5.8rem;
+    letter-spacing: -0.1rem;
+  }
 }

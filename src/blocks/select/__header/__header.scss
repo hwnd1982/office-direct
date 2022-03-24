@@ -1,0 +1,27 @@
+.select__header {
+  position: relative;
+  @include font(500, 1.6rem, 140%);
+  cursor: pointer;
+
+  padding-right: 2rem;
+  white-space: nowrap;
+  // overflow: hidden;
+  // text-overflow: ellipsis;
+
+  &::after {
+    position: absolute;
+    right: 0;
+    content: "";
+    width: 1.6rem;
+    height: 2.24rem;
+    background-image: url("../img/header/img/chevron-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.3s;
+  }
+
+  &--active::after {
+    content: "";
+    transform: rotate(180deg);
+  }
+}

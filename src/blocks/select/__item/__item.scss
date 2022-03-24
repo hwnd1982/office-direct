@@ -1,0 +1,19 @@
+.select__item {
+  cursor: pointer;
+  padding: 0 2rem;
+  @include font(500, 1.6rem, 140%);
+  transition: background-color 0.3s;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  &:first-child {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .select__item:hover {
+    background-color: rgba($color: #000000, $alpha: 0.1);
+  }
+}

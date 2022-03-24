@@ -1,0 +1,13 @@
+.questions__title {
+  @include font(900, 4.4rem, 120%);
+  margin-left: -0.2rem;
+  margin-bottom: 0.9rem;
+}
+
+@media (max-width: 48em) {
+  .questions__title {
+    font-size: 5.6rem;
+    margin-bottom: 1.2rem;
+    margin-left: 0;
+  }
+}

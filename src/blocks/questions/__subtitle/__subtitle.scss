@@ -1,0 +1,12 @@
+.questions__subtitle {
+  @include font(300, 2.6rem, 150%);
+  width: 58rem;
+  margin-bottom: 2.7rem;
+}
+
+@media (max-width: 48em) {
+  .questions__subtitle {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+}

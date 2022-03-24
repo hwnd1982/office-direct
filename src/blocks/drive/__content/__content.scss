@@ -1,0 +1,9 @@
+.drive__content {
+  @include flex-justify-between;
+}
+
+@media (max-width: 48em) {
+  .drive__content {
+    flex-direction: column;
+  }
+}

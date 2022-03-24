@@ -1,0 +1,12 @@
+.questions__button {
+  padding: 2.6rem 7.28rem 3rem;
+  @include font(600, 1.8rem, 140%);
+}
+
+@media (max-width: 48em) {
+  .questions__button {
+    width: 100%;
+    padding: 3.6rem 11.6rem 4.5rem;
+    font-size: 3.2rem;
+  }
+}

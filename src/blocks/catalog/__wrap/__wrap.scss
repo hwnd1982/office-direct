@@ -1,5 +1,12 @@
 .catalog__wrap {
-  @include flex-justify-between;
-  flex-wrap: wrap;
-  align-items: start;
+  display: grid;
+  grid-template-columns: repeat(4, 28.1rem);
+  gap: 6.3rem 1.6rem;
+}
+
+@media (max-width: 48em) {
+  .catalog__wrap {
+    grid-template-columns: repeat(2, 49%);
+    gap: 4.5rem 1.6rem;
+  }
 }

@@ -1,0 +1,17 @@
+.catalog__more {
+  padding: 2.4rem 3rem 2.6rem;
+  margin-top: 5.5rem;
+  text-align: center;
+
+  &--style {
+    background: #f3f4f7;
+    border-radius: 0.8rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .catalog__more {
+    padding: 3.2rem 6rem 3.4rem;
+    margin-top: 5.65rem;
+  }
+}
