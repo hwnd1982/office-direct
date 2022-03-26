@@ -32,3 +32,9 @@
   -webkit-line-clamp: $n;
   -webkit-box-orient: vertical;
 }
+
+@mixin centered {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

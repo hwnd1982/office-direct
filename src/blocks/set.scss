@@ -13,6 +13,7 @@ html {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-style: normal;
   font-weight: normal;
@@ -53,6 +54,10 @@ button {
 
 .svg-hidden {
   display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 @media (max-width: 48em) {

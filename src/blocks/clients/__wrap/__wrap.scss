@@ -1,0 +1,13 @@
+.clients__wrap {
+  margin: 0 auto;
+  width: 110rem;
+  padding-top: 10.8rem;
+  padding-bottom: 17.22rem;
+}
+
+@media (max-width: 48em) {
+  .clients__wrap {
+    width: 100%;
+    padding: 12.8rem 1.6rem 14.4rem 2.2rem;
+  }
+}

@@ -1,0 +1,23 @@
+.modal__inner {
+  position: relative;
+  width: 77.4rem;
+  height: 36.8rem;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 18.2rem;
+  z-index: 105;
+
+  &--style {
+    background-color: #ffffff;
+    border: 0.1rem solid #f3f4f7;
+    box-shadow: 0 2rem 5.2rem -0.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 2.5rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .modal__inner {
+    width: 92%;
+    max-width: 77.4rem;
+  }
+}

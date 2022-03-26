@@ -9,11 +9,11 @@ const mobileMenu = () => {
     if (headerMobile.classList.contains('header__mobile--active')) {
       headerBurger.style.display = 'none';
       headerCross.style.display = 'block';
-      document.body.style.overflow = 'hidden';
+      document.body.classList.add('no-scroll');
     } else {
       headerBurger.style.display = null;
       headerCross.style.display = null;
-      document.body.style.overflow = null;
+      document.body.classList.remove('no-scroll');
     }
   };
 

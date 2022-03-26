@@ -1,0 +1,12 @@
+.clients__img-wrap {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 10.4rem 7.5rem 14.5rem 4.2rem 17rem 3.5rem 15.1rem 6rem 12.9rem 6.7rem 13.2rem;
+}
+
+@media (max-width: 48em) {
+  .clients__img-wrap {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 8.2rem 2.2rem 11.4rem 1.2rem 7.4rem;
+  }
+}

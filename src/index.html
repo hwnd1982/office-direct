@@ -98,7 +98,10 @@
               <a href="tel:+74952210675" class="header-phone__number">+7 495 221-06-75</a>
             </div>
             <!-- /.header-info__phone -->
-            <button type="button" class="header__button header__button--color header__button--desktop">
+            <button
+              type="button"
+              class="button header__button header__button--color header__button--desktop button__modals"
+            >
               Заказать звонок
             </button>
           </div>
@@ -183,7 +186,10 @@
             </li>
           </ul>
           <span class="header__line"></span>
-          <button type="button" class="header__button header__button--color header__button--mobile">
+          <button
+            type="button"
+            class="button header__button header__button--color header__button--mobile button__modals"
+          >
             Заказать звонок
           </button>
           <a href="tel:+74952210675" class="header-phone__number">+7 495 221-06-75</a>
@@ -446,7 +452,9 @@
                   У нас есть шоурумы в Москве и Санкт-Петербурге, где мы всегда рады видеть вас. Дат профессиональную
                   консультацию и поделиться экспертизой
                 </p>
-                <button class="button drive__button button--style" typr="button">Запись на тест-драйв</button>
+                <button class="button drive__button button--style button__modals" typr="button">
+                  Запись на тест-драйв
+                </button>
               </div>
               <!-- /.drive__text -->
               <div class="drive__img">
@@ -459,6 +467,39 @@
           <!-- /.container -->
         </div>
         <!-- /.drive__wrap -->
+      </section>
+      <section class="clients">
+        <div class="clients__wrap">
+          <h2 class="clients__header">Наши клиенты</h2>
+          <div class="clients__img-wrap">
+            <div class="clients__img">
+              <img src="./img/clients/img/rrw.png" alt="ржд" />
+            </div>
+            <!-- /.clients__img -->
+            <div class="clients__img">
+              <img src="./img/clients/img/nornickel.png" alt="норникель" />
+            </div>
+            <!-- /.clients__img -->
+            <div class="clients__img">
+              <img src="./img/clients/img/bash-oil.png" alt="башнефть" />
+            </div>
+            <!-- /.clients__img -->
+            <div class="clients__img">
+              <img src="./img/clients/img/rus-space.png" alt="роскосмос" />
+            </div>
+            <!-- /.clients__img -->
+            <div class="clients__img">
+              <img src="./img/clients/img/home-credit.png" alt="homecredit" />
+            </div>
+            <!-- /.clients__img -->
+            <div class="clients__img">
+              <img src="./img/clients/img/victory.png" alt="" />
+            </div>
+            <!-- /.clients__img -->
+          </div>
+          <!-- /.clients__img-wrap -->
+        </div>
+        <!-- /.clients__wrap -->
       </section>
       <section class="questions">
         <div class="questions__wrap">
@@ -513,12 +554,35 @@
             src="https://api-maps.yandex.ru/2.1/?apikey=e49e1778-34e3-4b96-a159-f7d527ad8c6c&lang=ru_RU"
             type="text/javascript"
           ></script>
-
           <div id="map-element" class="map__element"></div>
           <!-- /.map__wrap -->
         </div>
         <!-- /.map -->
       </section>
     </main>
+    <fooret class="footer"></fooret>
+    <div class="modal">
+      <div class="modal__overlay modal__overlay--style">
+        <div class="modal__inner modal__inner--style">
+          <div class="done modal__done">
+            <div class="done__wrap">
+              <img class="done__img" src="./img/done/img/done.svg" alt="" />
+            </div>
+            <!-- /.done__wrap -->
+          </div>
+          <!-- /.modal__done -->
+          <div class="madal__text">
+            <h2 class="modal__header">Ваша заявка принята</h2>
+            <span class="modal__discription modal__discription--color"
+              >В ближайшее время наш менеджер свяжется с Вами</span
+            >
+          </div>
+          <!-- /.madal__text -->
+        </div>
+        <!-- /.modal__inner -->
+      </div>
+      <!-- /.modal__overlay -->
+    </div>
+    <!-- /.modal -->
   </body>
 </html>
